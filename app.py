@@ -29,7 +29,7 @@ app.config['JWT_SECRET_KEY'] = app.config['SECRET_KEY']
 jwt = JWTManager(app)
 
 # Tiempo TOKEN
-TOKEN_EXP = 45
+TOKEN_EXP = 59
 
 # Sistema de calificaciones
 puntaje = Puntaje(TOKEN_EXP)
