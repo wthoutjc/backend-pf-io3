@@ -1,7 +1,7 @@
 #ARCHIVO PRIVADO
 SETTINGS = {
-    "host":"localhost",
-    "user":"root",
-    "passwd":"9498",
+    "host":"produgan-db-v3-testing.cjkjgfpqqyam.sa-east-1.rds.amazonaws.com",
+    "user":"admin",
+    "passwd":"Produgan2023",
     "database":"io-db"
 }
