@@ -114,8 +114,6 @@ def answers():
     puntaje.set_id(id_student)
     puntaje.set_answers(answers)
 
-    print(answers)
-
     calificacion = puntaje.calificar()
 
     message, success = sql_op.insertar_calificacion(id_student, calificacion)

@@ -1,35 +1,55 @@
 USE `io-db`;
 
-INSERT INTO students VALUES(20182020095, 'Jose Andrés', 'Sanabria Arias', 'joasanabriaa@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20181020066, 'Kevin Duván', 'Bernal Ortiz', 'kdbernalo@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20181020064, 'Jonathan Steven', 'Cruz Monroy', 'joscruzm@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20182020065, 'Juan Camilo', 'Cespedes Romero', 'jccespedesr@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20182020084, 'Jackson', 'Luna Bonilla', 'jlunab@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20182020080, 'William Enrique', 'Forero Neira', 'weforeron@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020008, 'Diego Fernando', 'Román López', 'dfromanl@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020109, 'Josué Daniel', 'Rodríguez Siatama', 'jodrodriguezs@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20191020147, 'César Andrés', 'Torres Bernal', 'catorresb@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20191020073, 'Julián Camilo', 'Espinosa Morales', 'jucespinosam@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20191020167, 'Sergio David', 'Páez Suarez', 'sdpaezs@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20191020131, 'Marcela del Pilar', 'Porras Quevedo', 'mdel_porrasq@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
+INSERT INTO students VALUES(20192020077, 'Ginneidy Camila', 'León Zabala', 'gdhernandezv@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20192020095, 'Diana Marcela', 'Garzón Manjarres', 'dmgarzon@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20172020093, 'Diego Alexander', 'Lizarazo Jiménez', 'dalizarazoj@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
+INSERT INTO students VALUES(20171020123, 'Julián Andrés', 'Barrios Corredor', 'jabarriosc@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20171020131, 'Juan Camilo', 'Sanchéz Arandia', 'juacasancheza@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20171020051, 'Fabio Andrés', 'Ortiz Gasca', 'faortizg@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20182020004, 'William Alejandro', 'Ardila Sánchez', 'waardilas@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
+INSERT INTO students VALUES(20182020114, 'Johan Alexander', 'Villabona Ulluoa', 'javillabonau@correo.udiatrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20162020442, 'Francisco José', 'Martínez Garcia', 'fjmartinezg@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20172020044, 'David Esteban', 'Moreno Lara', 'demorenol@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20172020142, 'Sergio Esteban', 'Ramírez Santamaria', 'ssramirezs@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
+INSERT INTO students VALUES(20202020098, 'Daniel Mateo', 'Montoya González', 'dmmontoyag@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20202020116, 'Valeria', 'Ávila Paredes', 'vavilap@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20191020139, 'Cristian Camilo', 'Méndez Trujillo', 'ccmendezt@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
 INSERT INTO students VALUES(20191020133, 'Ibzan Jared', 'Peralta Rosero', 'ijperaltar@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020113, 'Andrés Felipe', 'Barbosa Cárdenas', 'anfbarbosac@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020043, 'David Steven', 'Saldarriaga Pardo', 'dssaldarriagap@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020082, 'Juan David', 'Hurtado Peñaloza', 'judhurtadop@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020094, 'Santiago', 'Herrera Velásquez', 'sherrerav@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020018, 'Juan Camilo', 'Herrera Gómez', 'jucherrerag@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020151, 'Brayan Steven', 'Arellano Espinosa', 'bsarellanoe@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
+INSERT INTO students VALUES(20192020113, 'Carlos Stiven', 'Mora Hoyos', 'csmorah@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20192020120, 'Jhesnit Dayana', 'Acuña Calderon', 'jhdacunac@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20192020138, 'Steven', 'Espejo Cabarcas', 'sespejoc@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20192020139, 'Diego Alejandro', 'Bautista Castañeda', 'dabautistac@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
+INSERT INTO students VALUES(20191020025, 'Bryant David', 'Ortega Veloza', 'bdortegav@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20191020038, 'Oscar David', 'Rojas Pardo', 'odrojasp@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20191020049, 'Diego Fernando', 'Mora Guevara', 'dfmorag@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20191020040, 'Daniel David', 'Garay Palacios', 'ddgarayp@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
+INSERT INTO students VALUES(20192020021, 'Gabriel Enrique', 'Dubuc Portacio', 'gedubucp@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20192020035, 'Vanessa Alexandra', 'Moreno Leal', 'vamorenol@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20191020153, 'Juan Andrés', 'González González', 'juagonzalezg@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20211020002, 'María Fernanda', 'Pérez Hernández', 'mafperezh@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
+INSERT INTO students VALUES(20182020027, 'Miguel Angel', 'Romo Moreno', 'maromom@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20182020017, 'Juan David', 'Romero Corredor', 'juadromeroc@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20181020019, 'Samuel David', 'Franco Cuenca', 'sdfrancoc@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20162020074, 'Juan Pablo', 'Perea Hernández', 'jppereah@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
 INSERT INTO students VALUES(20161150007, 'Hanna Caroline', 'Villamil Ortiz', 'hcvillamilo@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20152020222, 'Dannyr Gustavo', 'García Cardozo', 'dggarcia@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20172020110, 'Maria Fernanda', 'Uribe Hernández', 'mfuribeh@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20182020015, 'Reinaldo', 'Espinel Torres', 'respinelt@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20182020013, 'Daniel Julián', 'Vargas Jaime', 'djvargasj@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020003, 'Jonathan Estiven', 'Castellanos Castellanos', 'joecastellanosc@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020056, 'Andrés Felipe', 'Morera Díaz', 'aforerad@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020039, 'Juan Sebastian', 'Angulo Cita', 'jsanguloc@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20182020133, 'Nicolas', 'Pérez Sánchez', 'nperezs@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20182020161, 'Jhonatan Steven', 'Vega Novoa', 'jsvegan@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020127, 'Samuel Andrés', 'Romero Bueno', 'saromerob@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020117, 'Jhon Sebastian', 'Alberto Cortes', 'jsalbertoc@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20192020010, 'Jonathan Estiven', 'Martínez Malaver', 'joemartinezm@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20172020060, 'Jorge Alberto', 'Galeano Vélez', 'jagaleanov@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20152020222, 'Dannyr Gustavo', 'García Cardozo', 'dggarciac@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20182020158, 'Luis Miguel', 'Polo Heilbroom', 'lmpoloh@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20182020157, 'Andrés Felipe', 'Lesmes Campos', 'aflesmesc@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+
 INSERT INTO students VALUES(20181020089, 'Juan Camilo', 'Ramírez Rátiva', 'jcramirezr@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20191020058, 'Yuneider', 'Parada Pérez', 'yparadap@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20182020125, 'Andrés Felipe', 'Gutierrez Ramírez', 'andfgutierrezr@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
-INSERT INTO students VALUES(20181020068, 'Johan Daniel', 'Cortés Garcia', 'jdcortesg@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20181020135, 'Ariel Ernesto', 'Forero Meneses', 'aeforerom@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20192020143, 'Jefferson', 'Escobar Rivas', 'jefescobarr@correo.udistrital.edu.co', 'Ingeniería de Sistemas');
+INSERT INTO students VALUES(20181020059, 'Gabriel David', 'Hernández Vargas', 'gdhernandezv@correo.udistrital.edu.co', 'Ingeniería de Sistemas');

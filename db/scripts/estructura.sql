@@ -4,11 +4,28 @@ SET FOREIGN_KEY_CHECKS=0;
 
 DROP TABLE IF EXISTS `students` CASCADE;
 
+DROP TABLE IF EXISTS `calificacion` CASCADE;
+
+DROP TABLE IF EXISTS `preguntas` CASCADE;
+
 CREATE TABLE `students`(
 	`k_students` BIGINT NOT NULL,
 	`n_nombre` LONGTEXT NOT NULL,
 	`n_apellido` LONGTEXT NOT NULL,
-	`q_correo` LONGTEXT NOT NULL
+	`n_correo` LONGTEXT NOT NULL,
+    `n_proyecto` LONGTEXT NOT NULL
+);
+
+CREATE TABLE `calificacion`(
+	`k_students` BIGINT NOT NULL,
+	`q_calificacion` BIGINT NOT NULL
+);
+
+CREATE TABLE `preguntas`(
+	`k_students` BIGINT NOT NULL,
+	`k_preguntas` BIGINT NOT NULL,
+	`q_respuesta` BIGINT NOT NULL,
+	`n_tiempo` VARCHAR(255) NOT NULL
 );
 
 /* PRIMARY KEYS */

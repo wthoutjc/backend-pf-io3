@@ -38,24 +38,24 @@ class Puntaje():
                 # Respuesta correcta
                 if keys[1][0] == 3:
                     self.puntaje += self.descompose(keys[1][1])
-            #Question 2 - ANSWER A
+            #Question 2 - ANSWER D
             if keys[0] == 'question2':
-                # Respuesta correcta
-                if keys[1][0] == 1:
-                    self.puntaje += self.descompose(keys[1][1])
-            #Question 3 - ANSWER C
-            if keys[0] == 'question3':
-                # Respuesta correcta
-                if keys[1][0] == 3:
-                    self.puntaje += self.descompose(keys[1][1])
-            #Question 4 - ANSWER D
-            if keys[0] == 'question4':
                 # Respuesta correcta
                 if keys[1][0] == 4:
                     self.puntaje += self.descompose(keys[1][1])
-            #Question 5 - ANSWER B
-            if keys[0] == 'question5':
+            #Question 3 - ANSWER B
+            if keys[0] == 'question3':
                 # Respuesta correcta
                 if keys[1][0] == 2:
+                    self.puntaje += self.descompose(keys[1][1])
+            #Question 4 - ANSWER C
+            if keys[0] == 'question4':
+                # Respuesta correcta
+                if keys[1][0] == 3:
+                    self.puntaje += self.descompose(keys[1][1])
+            #Question 5 - ANSWER A
+            if keys[0] == 'question5':
+                # Respuesta correcta
+                if keys[1][0] == 1:
                     self.puntaje += self.descompose(keys[1][1])
         return self.puntaje

@@ -29,7 +29,8 @@ class SQLOperations():
                     host=self.host,
                     user=self.user,
                     passwd=self.passwd,
-                    database=self.database
+                    database=self.database,
+                    auth_plugin='mysql_native_password'
                 )
             return self.based.cursor()
         except mysql.connector.Error as error:
@@ -146,15 +147,15 @@ class SQLOperations():
         try:
             aux = 1
             self.ncursor = self.login_database()
-            self.query = "INSERT INTO preguntas VALUES (%s,%s,%s,%s)"
+            self.query = "INSERT INTO preguntas VALUES (%s, %s, %s, %s)"
             if answers:
                 for answer in answers.values():
                     if answer[0]:
-                        self.ncursor.execute(self.query, (id_student,aux,answer[0],answer[1]))
+                        self.ncursor.execute(self.query, (id_student, aux, answer[0], answer[1]))
                         self.based.commit()
                         aux += 1
                     else:
-                        self.ncursor.execute(self.query, (id_student,aux,0,0))
+                        self.ncursor.execute(self.query, (id_student, aux, 0, 0))
                         self.based.commit()
                         aux += 1
             self.logout_database(self.ncursor)
